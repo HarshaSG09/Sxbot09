@@ -32,7 +32,7 @@ AUTH_GROUPS = [int(ch) for ch in environ.get('AUTH_GROUP', '-1001861725083').spl
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', 'mongodb+srv://Sujansg:YEl29iSyxtAKNZT1@cluster0.p0ng9ea.mongodb.net/?retryWrites=true&w=majority')
-DATABASE_NAME = environ.get('DATABASE_NAME', 'All Movie At One')
+DATABASE_NAME = environ.get('DATABASE_NAME', 'AllMovieAtOne')
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
