@@ -62,7 +62,7 @@ REQ_CHANNEL = int(environ.get('REQ_CHANNEL', '-1001830309583'))
 
 # AI
 OPENAI_API = environ.get('OPENAI_API', '')
-AI = is_enabled(environ.get('AI', 'True'), False)
+AI = is_enabled(environ.get('AI', 'False'), False)
 LAZY_AI_LOGS = int(environ.get('LAZY_AI_LOGS', '-1001913444688'))
 
 # Requested Content template variables
