@@ -61,7 +61,7 @@ LAZY_RENAMERS = (lazy_renamers + ADMINS) if lazy_renamers else []
 REQ_CHANNEL = int(environ.get('REQ_CHANNEL', '-1001830309583'))
 
 # AI
-OPENAI_API = environ.get('OPENAI_API', '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')
+OPENAI_API = environ.get('OPENAI_API', '')
 AI = is_enabled(environ.get('AI', 'True'), False)
 LAZY_AI_LOGS = int(environ.get('LAZY_AI_LOGS', '-1001913444688'))
 
