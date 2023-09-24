@@ -47,7 +47,7 @@ IMDB_TEMPLATE = environ.get('IMDB_TEMPLATE', "Your IMDb template here")
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get('LONG_IMDB_DESCRIPTION', 'False'), False)
 SPELL_CHECK_REPLY = is_enabled(environ.get('SPELL_CHECK_REPLY', 'True'), False)
 MAX_LIST_ELM = environ.get('MAX_LIST_ELM', None)
-INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', '-1001856149007'))
+INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', '-1001581123847'))
 FILE_STORE_CHANNEL = [int(ch) for ch in environ.get('FILE_STORE_CHANNEL', '-1001935596221').split()]
 MELCOW_NEW_USERS = is_enabled(environ.get('MELCOW_NEW_USERS', 'True'), True)
 PROTECT_CONTENT = is_enabled(environ.get('PROTECT_CONTENT', 'True'), False)
@@ -68,16 +68,16 @@ LAZY_AI_LOGS = int(environ.get('LAZY_AI_LOGS', '-1001913444688'))
 # Requested Content template variables
 ADMIN_USRNM = environ.get('ADMIN_USRNM', 'Harsha_S_G')
 MAIN_CHANNEL_USRNM = environ.get('MAIN_CHANNEL_USRNM', 'filmzoneadd0')
-DEV_CHANNEL_USRNM = environ.get('DEV_CHANNEL_USRNM', '')
+DEV_CHANNEL_USRNM = environ.get('DEV_CHANNEL_USRNM', '+HdiMB9-cPyIxZDJl')
 LAZY_YT_HANDLE = environ.get('LAZY_YT_HANDLE', '@Ultimately-YT09')
-MOVIE_GROUP_USERNAME = environ.get('MOVIE_GROUP_USERNAME', '-1001861725083')
+MOVIE_GROUP_USERNAME = environ.get('MOVIE_GROUP_USERNAME', '+rFbpyP1M0fpkMjk1')
 
 # URL Shortener
 URL_MODE = is_enabled(environ.get('URL_MODE', 'True'), False)
 URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'tnshort.net')
 URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', '2eb38117e76c51df0762f15001bdd6acd9c19053')
 LZURL_PRIME_USERS = [int(lazyurlers) if id_pattern.search(lazyurlers) else lazyurlers for lazyurlers in environ.get('LZURL_PRIME_USERS', '5965340120').split()]
-lazy_groups = environ.get('LAZY_GROUPS', '-1001861725083')
+lazy_groups = environ.get('LAZY_GROUPS', '-1001618455297')
 LAZY_GROUPS = [int(lazy_groups) for lazy_groups in lazy_groups.split()] if lazy_groups else None
 my_users = [int(my_users) if id_pattern.search(my_users) else my_users for my_users in environ.get('MY_USERS', '-1001805224802').split()]
 MY_USERS = my_users if my_users else []
